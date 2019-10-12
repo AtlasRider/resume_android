@@ -1,0 +1,324 @@
+{
+  "general": {
+    "name": "Bill Dwyer",
+    "currentTitle": "Senior Software Engineer",
+    "location": "Portland, Oregon",
+    "intro": "Fifteen years software development experience and most recently I've been developing Android apps. Always looking for new opportunities to continue developing mobile apps in new exciting spaces that help connect users and technology in interesting ways."
+  },
+  "education": {
+    "start": "2000-09-01",
+    "end": "2004-05-01",
+    "location": "Green Bay, Wisconsin",
+    "degree": "Bachelor of Science",
+    "majors": [
+      "Computer Science",
+      "Philosophy"
+    ]
+  },
+  "experience": [
+    {
+      "id": 9,
+      "title": "Senior Software Engineer",
+      "company": "Cvent",
+      "companyLogo": "require('../../assets/img/logo_cvent.png')",
+      "location": "Portland, Oregon",
+      "start": "2017-08-01",
+      "end": null,
+      "description": [
+        "Transitioned to team's Tech Lead to help guide technical discussions and decisions",
+        "Led pilot project to inject React Native into existing app",
+        "Implemented new features on existing Android app"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Senior Software Engineer",
+      "company": "DAT Solutions",
+      "companyLogo": "require('../../assets/img/logo_dat.png')",
+      "location": "Beaverton, Oregon",
+      "start": "2016-04-01",
+      "end": "2017-08-01",
+      "description": [
+        "Created DAT Load Board for Truckers Android app to replace existing web app (“the Uber for Truckers”)",
+        "Led feature development from project beginning to the initial launch",
+        "Established new REST APIs on NodeJS backend",
+        "Feature development and refactoring of existing DAT Trucker Android app"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Senior Software Engineer",
+      "company": "ShiftWise",
+      "companyLogo": "require('../../assets/img/logo_shiftwise.png')",
+      "location": "Portland, Oregon",
+      "start": "2013-08-01",
+      "end": "2016-04-01",
+      "description": [
+        "Lead developer of team to deliver company’s first Android and iOS app using Xamarin",
+        "Designed cross platform libraries that are shared between Android and iOS apps",
+        "Use of extensive automated tests, including functional UI testing of mobile apps",
+        "Full stack feature development in our core systems app using Angular, C#, and Mongo"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Web Developer",
+      "company": "Pop Art",
+      "companyLogo": "require('../../assets/img/logo_popart.png')",
+      "location": "Portland, Oregon",
+      "start": "2012-08-01",
+      "end": "2013-07-01",
+      "description": [
+        "Led agile team, designed and developed an ASP.NET MVC server-side infrastructure in C# for a PhoneGap iOS app using jQuery Mobile to connect users with nation wide job opportunities",
+        "Created a responsive and parallaxing site for DemandDetroit.com, using the latest HTML5 techniques including, Javascript, jQuery, CSS3, and AJAX",
+        "Inherited a PHP code base, refactored and delivered a mobile experience for Yogi Tea products using Expression Engine as a CMS",
+        "Developed new features and maintained existing client websites across many different technology stacks",
+        "Used my experience in previous development companies to establish Agile, DRY, Test-Driven and Continuous Integration processes that maximize efficiency and contribute to the overall improvement of the team"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Web Developer",
+      "company": "Pepper Hamilton",
+      "companyLogo": "require('../../assets/img/logo_pepperhamilton.jpg')",
+      "location": "Philadelphia, Pennsylvania",
+      "start": "2011-03-01",
+      "end": "2012-05-01",
+      "description": [
+        "Built custom .NET web applications to fill in functionality gaps",
+        "Implemented Sharepoint 2010 installation for firm wide use",
+        "Developed PHP libraries to aid in migration from Microsoft stack",
+        "A proponent of good software development practices who put in place procedures to increase code quality",
+        "Maintained and improved databases that surveyed the firm’s experience to facilitate pitches for prospective clients"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Travel",
+      "location": "Latin America",
+      "companyLogo": "require('../../assets/img/logo_atlasrider.jpg')",
+      "start": "2010-08-01",
+      "end": "2011-03-01",
+      "description": [
+        "Published a book depicting my solo travels through Central and South America by motorcycle",
+        "Creator of AtlasRider.com, a website covering my personal adventures by motorcycle around the world with a healthy audience and continued growth",
+        "Gained much exposure to Wordpress as a CMS with custom coded solutions",
+        "Latest adventure took place over 8 months and 20,000 miles in Latin America",
+        "Wrote articles, took photos and videos to document the journey",
+        "Published a viral video depicting corrupt Mexican officials",
+        "Notable publicity: a feature on Phoenix ABC news, Univision’s Primer Impacto news, and a front page article in top Mexico newspapers",
+        "I share my expertise at annual adventure travel expos"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Software Developer",
+      "company": "University of Phoenix",
+      "companyLogo": "require('../../assets/img/logo_uop.png')",
+      "location": "Phoenix, Arizona",
+      "start": "2007-08-01",
+      "end": "2010-08-01",
+      "description": [
+        "Apollo Group, Inc. owns the University of Phoenix",
+        "Responsible for maintenance of online classroom environment that served over 400,000 enrolled students",
+        "Created new services and systems with availability and scalability always in mind",
+        "Spearheaded efforts for complex problems with architecture designs and implementation",
+        "Mentored junior level developers",
+        "Helped design architecture for various projects",
+        "Contributed to proper coding standards"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Software Developer",
+      "company": "Hands on Technology",
+      "companyLogo": "require('../../assets/img/logo_handsontech.png')",
+      "location": "Hinsdale, Illinois",
+      "start": "2007-08-01",
+      "end": "2005-09-01",
+      "description": [
+        "Developed an application to encrypt and transmit claim information to insurance companies. This included dynamic electronic and paper form generation to accommodate the various standards among insurance companies",
+        "Redesigned the main product’s report viewer. Created over 70 different reports and created a system to perform updates over the internet",
+        "Led the project to migrate MySQL databases to Microsoft SQL Server 2005. Strong database skills were key to completing this project, which successfully upgraded over 300 clients nationwide",
+        "Designed and implemented CRM and CMS tool for internal use"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Software Developer",
+      "company": "Ulta",
+      "companyLogo": "require('../../assets/img/logo_ulta.png')",
+      "location": "Romeoville, Illinois",
+      "start": "2004-12-01",
+      "end": "2005-09-01",
+      "description": [
+        "Worked with MFC to improve the GUI of an internally used application and created a new message delivery system to aid fellow developers in fixing existing bugs",
+        "Created many queries that ran against corporate financial data to be used for reporting",
+        "Developed batch processes to transfer data between multiple departments and software systems, the most notable system being SAP"
+      ]
+    },
+    {
+      "id": 0,
+      "title": "Software Developer",
+      "company": "Remote Operations Company",
+      "companyLogo": "require('../../assets/img/logo_roc.png')",
+      "location": "Green Bay, Wisconsin",
+      "start": "2003-07-01",
+      "end": "2004-12-01",
+      "description": [
+        "Developed an application to transfer lab data to the State of Wisconsin from White Clover Dairy, a major cheese manufacturer",
+        "Project lead during analysis, development, and implementation of an inventory and customer relationship management for Land O’ Lakes, a nation-wide dairy producer and distributor",
+        "Technical lead during development of inventory system to track yields of production and location of goods for White Clover Dairy",
+        "Determined the proper scanning technology to use, developed libraries for interacting with scanning devices, designed and implemented a environment to be used with portable data terminals for inventory purposes",
+        "Packaged hundreds of applications (using Admin Studio and various other techniques) in preparation for deployment, using Microsoft SMS, to over five hundred computers"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Mobile",
+      "icon": "require('../../assets/img/ic_mobile.png')",
+      "skills": [
+        {
+          "label": "Android",
+          "icon": "require('../../assets/img/ic_android.png')"
+        },
+        {
+          "label": "iOS",
+          "icon": "require('../../assets/img/ic_ios.png')"
+        },
+        {
+          "label": "React Native",
+          "icon": "require('../../assets/img/ic_react.png')"
+        },
+        {
+          "label": "Xamarin",
+          "icon": "require('../../assets/img/ic_xamarin.png')"
+        }
+      ]
+    },
+    {
+      "category": "Server Side",
+      "icon": "require('../../assets/img/ic_server.png')",
+      "skills": [
+        {
+          "label": "Node",
+          "icon": "require('../../assets/img/ic_js.png')"
+        },
+        {
+          "label": "Java",
+          "icon": "require('../../assets/img/ic_java.png')"
+        },
+        {
+          "label": "C#",
+          "icon": "require('../../assets/img/ic_csharp.png')"
+        }
+      ]
+    },
+    {
+      "category": "Web",
+      "icon": "require('../../assets/img/ic_web.png')",
+      "skills": [
+        {
+          "label": "React",
+          "icon": "require('../../assets/img/ic_react.png')"
+        },
+        {
+          "label": "Javascript",
+          "icon": "require('../../assets/img/ic_js.png')"
+        },
+        {
+          "label": "HTML5",
+          "icon": "require('../../assets/img/ic_html5.png')"
+        },
+        {
+          "label": "CSS",
+          "icon": "require('../../assets/img/ic_css.png')"
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "icon": "require('../../assets/img/ic_database.png')",
+      "skills": [
+        {
+          "label": "Mongo",
+          "icon": "require('../../assets/img/ic_mongo.jpg')"
+        },
+        {
+          "label": "SQLite",
+          "icon": "require('../../assets/img/ic_js.png')"
+        },
+        {
+          "label": "MySQL",
+          "icon": "require('../../assets/img/ic_html5.png')"
+        },
+        {
+          "label": "MSSQL",
+          "icon": "require('../../assets/img/ic_css.png')"
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "skills": [
+        "Mongo",
+        "SQLite",
+        "MySQL",
+        "MSSQL"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "skills": [
+        "AWS (EC2, S3, Route 53)",
+        "GIT",
+        "Jenkins"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "name": "Damon G.",
+      "title": "Product Owner",
+      "company": "DAT",
+      "date": "2017-07-14",
+      "description": "Bill is a great asset to our mobile development team and was key in delivering our products on time. Bill owns the development role and always is looking for better ways to implement our ideas. Being current in both technical and usability frameworks, Bill was able to expedite an MVP product and quickly iterate to increase the value to our customers."
+    },
+    {
+      "name": "Daniel C.",
+      "title": "Software Engineer",
+      "company": "ShiftWise",
+      "date": "2016-03-04",
+      "description": "Bill fosters a wide range of interests even as he strives to master the art of mobile development. He is the quintessential friendly professional. I had the honor of sitting next to Bill at ShiftWise where I often solicited his help. He always treated me with respect while he patiently talked me through whatever problem I encountered.\nEvery job supplies a range of both stressful and tranquil moments and Bill has mastered the art of remaining steady and reasonable through all of it. He will quickly earn both your trust and respect. I deeply admire both his attitude and his expertise and expect him to excel at whatever occupation he chooses to pursue in the future.\nBill will make any team better."
+    },
+    {
+      "name": "Saad Aziz",
+      "title": "Technical Manager",
+      "company": "ShiftWise",
+      "date": "2016-02-15",
+      "description": "Bill is a brilliant software developer, creative and original thinker, an attentive listener, and a tremendous contributor. I have come to strongly appreciate his sense of humor, delivered with impeccable timing. Even in the most trying situations, he will stand out for his equanimity and ability to overcome challenges. I would strongly recommend Bill for any team, he earns my highest recommendation."
+    },
+    {
+      "name": "Kelly D",
+      "title": "Sr. Software Engineer",
+      "company": "ShiftWise",
+      "date": "2016-02-11",
+      "description": "While I worked at ShiftWise, Bill was our primary mobile application developer. He proved to me time and again how important it is to be flexible, knowledgeable, and creative. As I was new to mobile development (using Xamarin), I had a lot to learn from Bill, and I found him to be a patient and effective teacher. In addition, Bill has a great, dry sense of humor, and is friendly and easy to get along with. I highly recommend Bill for whichever job is lucky enough to attract him."
+    },
+    {
+      "name": "Greg Y.",
+      "title": "Web Developer",
+      "company": "Pop Art",
+      "date": "2013-06-15",
+      "description": "Bill was initially hired to fill a front-end need on the team, but it quickly became apparent he excels with multiple back-end languages as well and could be tasked with a large array of project types and technologies. A superb knowledge of systems from the ground up. Witty, smart, jack-of-all-trades, and an all around great guy."
+    },
+    {
+      "name": "Jeff M.",
+      "title": "Sr. Software Engineer",
+      "company": "University of Phoenix",
+      "date": "2010-08-09",
+      "description": "Bill is an excellent programmer that keeps on top of the latest techniques and best practices. He shows a great interest in doing things the right way and learning new ways of doing things. His thoughtful, friendly and outgoing personality contributes to team cohesion and makes the team more effective. Bill would be a wise choice for any organization."
+    }
+  ]
+}
