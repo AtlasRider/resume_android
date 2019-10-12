@@ -11,6 +11,8 @@
   - Crashlytics
   - Performance
   - Test Lab
+- CI Builds
+- Versioning
 - Animations
 
 ## Fun features for "playground" section
