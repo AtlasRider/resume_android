@@ -2,7 +2,7 @@
 
 ## Basic Feature ideas
 
-- App icon
+- ~~App icon~~
 - Create JSON doc of resume
 - Create UI for resume from JSON doc
   - Use architectural components/jetpack
