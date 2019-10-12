@@ -1,21 +1,28 @@
 # Bill Dwyer's Resume App
 
-## Basic Feature ideas
+## Alpha
 
 - ~~App icon~~
-- Create JSON doc of resume
+- ~~Create JSON doc of resume~~
 - Create UI for resume from JSON doc
   - Use architectural components/jetpack
+
+## Beta
+
 - Integrate share sheet for various social links (LinkedIn/Github/email?)
 - Firebase
   - Crashlytics
   - Performance
   - Test Lab
+
+## 1.0 Release
+
 - CI Builds
 - Versioning
 - Animations
 
-## Fun features for "playground" section
+
+## Backlog
 
 - Create playground section I can use as a container for testing now new Android features
   - Create public/private sections (authenticate with Firebase Auth) so I can show off features, but also test some that are only intended for me
