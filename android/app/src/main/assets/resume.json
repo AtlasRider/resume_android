@@ -258,23 +258,6 @@
           "icon": "require('../../assets/img/ic_css.png')"
         }
       ]
-    },
-    {
-      "category": "Database",
-      "skills": [
-        "Mongo",
-        "SQLite",
-        "MySQL",
-        "MSSQL"
-      ]
-    },
-    {
-      "category": "Miscellaneous",
-      "skills": [
-        "AWS (EC2, S3, Route 53)",
-        "GIT",
-        "Jenkins"
-      ]
     }
   ],
   "recommendations": [

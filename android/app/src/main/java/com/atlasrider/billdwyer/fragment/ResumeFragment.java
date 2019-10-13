@@ -6,8 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.atlasrider.billdwyer.R;
+import com.atlasrider.billdwyer.databinding.FragmentResumeBinding;
+import com.atlasrider.billdwyer.model.ResumeModel;
 import com.atlasrider.billdwyer.util.File;
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 
 import java.io.IOException;
 
@@ -18,20 +22,17 @@ import androidx.fragment.app.Fragment;
 public class ResumeFragment extends Fragment {
     private static final String TAG = ResumeFragment.class.getSimpleName();
 
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        loadResume();
-    }
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_resume, container, false);
+        ResumeModel resume = loadResume();
+        FragmentResumeBinding binding = FragmentResumeBinding.inflate(inflater, container, false);
+        binding.setResume(resume);
+        return binding.getRoot();
     }
 
-    private void loadResume() {
-        String json = null;
+    private ResumeModel loadResume() {
+        String json = "{}";
         try {
             //noinspection ConstantConditions
             json = File.Companion.readAsset(getContext().getAssets(), "resume.json");
@@ -39,6 +40,16 @@ public class ResumeFragment extends Fragment {
             ex.printStackTrace();
         }
 
-        Log.d(TAG, json);
+        Gson gson = new Gson();
+        ResumeModel resumeModel = gson.fromJson(json, ResumeModel.class);
+
+        // TODO: Add unit tests to verify this
+        JsonElement source = JsonParser.parseString(json);
+        JsonElement destination = JsonParser.parseString(gson.toJson(resumeModel));
+
+        Log.d(TAG, String.valueOf(source.equals(destination)));
+        Log.d(TAG, gson.toJson(resumeModel));
+
+        return resumeModel;
     }
 }
