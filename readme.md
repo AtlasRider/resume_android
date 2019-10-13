@@ -19,6 +19,8 @@
 ## 1.0 Release
 
 - CI Builds
+  - Lint check
+  - Run Test
 - Versioning
 - Animations
 
