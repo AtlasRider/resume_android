@@ -37,3 +37,5 @@
 - Firebase 
   - ML Kit for sure
   - Use Authentication before people can contact me.
+- Create "nerd view" with a view of the underlying JSON
+- Export as PDF
