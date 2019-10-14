@@ -6,8 +6,9 @@
     "intro": "Fifteen years software development experience and most recently I've been developing Android apps. Always looking for new opportunities to continue developing mobile apps in new exciting spaces that help connect users and technology in interesting ways."
   },
   "education": {
-    "start": "2000-09-01",
-    "end": "2004-05-01",
+    "college": "St. Norbert College",
+    "start": "2000",
+    "end": "2004",
     "location": "Green Bay, Wisconsin",
     "degree": "Bachelor of Science",
     "majors": [

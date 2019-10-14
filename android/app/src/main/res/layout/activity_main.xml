@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
+    tools:context=".ui.activity.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,12 +18,12 @@
             android:gravity="center"
             android:minHeight="?actionBarSize"
             android:padding="@dimen/appbar_padding"
-            android:text="@string/app_name"
+            android:text="Resume"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <fragment android:name="com.atlasrider.billdwyer.fragment.ResumeFragment"
+    <fragment android:name="com.atlasrider.billdwyer.ui.fragment.ResumeFragment"
         android:id="@+id/resume"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

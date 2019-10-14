@@ -1,9 +1,9 @@
-package com.atlasrider.billdwyer.model
+package com.atlasrider.billdwyer.data.model
 
 @Suppress("unused")
-class ResumeModel(
+open class ResumeModel(
         val general: General,
-        val education: Education,
+        open val education: Education,
         val experience: Array<Position>,
         val skills: Array<SkillCategory>,
         val recommendations: Array<Recommendation>) {
@@ -13,12 +13,21 @@ class ResumeModel(
             val currentTitle: String,
             val location: String,
             val intro: String)
-    class Education(
+    open class Education(
+            val college: String,
             val start: String,
             val end: String,
             val location: String,
             val degree: String,
             val majors: Array<String>)
+    class SkillCategory(
+            val category: String,
+            val icon: String,
+            val skills: Array<Skill>){
+        class Skill(
+                val label: String,
+                val icon: String)
+    }
     class Position(
             val id: Int,
             val title: String,
@@ -28,13 +37,6 @@ class ResumeModel(
             val start: String,
             val end: String,
             val description: Array<String>)
-    class SkillCategory(
-            val category: String,
-            val icon: String,
-            val skills: Array<Skill>)
-    class Skill(
-            val label: String,
-            val icon: String)
     class Recommendation(
             val name: String,
             val title: String,

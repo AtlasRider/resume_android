@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer.fragment;
+package com.atlasrider.billdwyer.ui.fragment;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -6,8 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.atlasrider.billdwyer.data.viewmodel.ResumeViewModel;
 import com.atlasrider.billdwyer.databinding.FragmentResumeBinding;
-import com.atlasrider.billdwyer.model.ResumeModel;
+import com.atlasrider.billdwyer.data.model.ResumeModel;
 import com.atlasrider.billdwyer.util.File;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
@@ -25,9 +26,9 @@ public class ResumeFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        ResumeModel resume = loadResume();
+        ResumeViewModel resumeViewModel = new ResumeViewModel(loadResume());
         FragmentResumeBinding binding = FragmentResumeBinding.inflate(inflater, container, false);
-        binding.setResume(resume);
+        binding.setResume(resumeViewModel);
         return binding.getRoot();
     }
 
@@ -46,6 +47,7 @@ public class ResumeFragment extends Fragment {
         // TODO: Add unit tests to verify this
         JsonElement source = JsonParser.parseString(json);
         JsonElement destination = JsonParser.parseString(gson.toJson(resumeModel));
+
 
         Log.d(TAG, String.valueOf(source.equals(destination)));
         Log.d(TAG, gson.toJson(resumeModel));
