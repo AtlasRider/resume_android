@@ -23,7 +23,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <fragment android:name="com.atlasrider.billdwyer.ui.fragment.ResumeFragment"
+    <fragment android:name="com.atlasrider.billdwyer.ui.fragment.ResumeFragment.ResumeFragment"
         android:id="@+id/resume"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
