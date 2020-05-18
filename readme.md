@@ -9,6 +9,8 @@
 - Create UI for resume from JSON doc
   - Use architectural components/jetpack
 - Post to Play Store
+- NavigationManager, single activity
+- Convert remaining java classes to Kotlin
 
 ## Beta
 
