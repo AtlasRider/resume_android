@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer.ui.activity;
+package com.atlasrider.billdwyer;
 
 import android.os.Bundle;
 

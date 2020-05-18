@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer.data.model
+package com.atlasrider.billdwyer.features.resume
 
 @Suppress("unused")
 open class ResumeModel(

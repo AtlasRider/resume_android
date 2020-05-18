@@ -1,6 +1,4 @@
-package com.atlasrider.billdwyer.data.viewmodel
-
-import com.atlasrider.billdwyer.data.model.ResumeModel
+package com.atlasrider.billdwyer.features.resume
 
 class ResumeViewModel(model: ResumeModel)
     : ResumeModel(model.general,
@@ -9,7 +7,10 @@ class ResumeViewModel(model: ResumeModel)
         model.skills,
         model.recommendations) {
 
-    override val education: EducationViewModel = EducationViewModel(super.education)
+    override val education: EducationViewModel =
+        EducationViewModel(
+            super.education
+        )
     class EducationViewModel(model: Education): Education(model.college, model.start, model.end, model.location,
             model.degree, model.majors) {
         val duration: String = String.format("%s - %s", start, end)

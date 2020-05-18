@@ -5,7 +5,7 @@
 
         <variable
             name="resume"
-            type="com.atlasrider.billdwyer.data.viewmodel.ResumeViewModel" />
+            type="com.atlasrider.billdwyer.features.resume.ResumeViewModel" />
     </data>
 
     <androidx.core.widget.NestedScrollView

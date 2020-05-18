@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer.ui.fragment.ResumeFragment;
+package com.atlasrider.billdwyer.features.resume;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -7,8 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.atlasrider.billdwyer.R;
-import com.atlasrider.billdwyer.data.model.ResumeModel;
-import com.atlasrider.billdwyer.data.viewmodel.ResumeViewModel;
 import com.atlasrider.billdwyer.databinding.FragmentResumeBinding;
 import com.atlasrider.billdwyer.util.File;
 import com.google.gson.Gson;

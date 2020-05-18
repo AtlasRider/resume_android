@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer.ui.fragment.ResumeFragment;
+package com.atlasrider.billdwyer.features.resume;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,7 +6,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.atlasrider.billdwyer.R;
-import com.atlasrider.billdwyer.data.model.ResumeModel;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
