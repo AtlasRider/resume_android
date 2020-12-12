@@ -14,6 +14,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./android/gradlew build
+      run: cd android && ./gradlew build
     - name: Lint
-      run: ./android/gradlew lint
+      run: cd android && ./gradlew lint
