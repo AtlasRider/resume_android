@@ -9,7 +9,7 @@ class File {
         @Throws(IOException::class)
         fun readAsset(assetManager: AssetManager, fileName: String): String {
             val inputStream: InputStream = assetManager.open(fileName)
-            return inputStream.bufferedReader().use{it.readText()}
+            return inputStream.bufferedReader().use { it.readText() }
         }
     }
 }

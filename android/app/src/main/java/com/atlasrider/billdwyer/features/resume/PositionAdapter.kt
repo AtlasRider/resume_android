@@ -28,18 +28,8 @@ class PositionAdapter(private val experience: Array<ResumeModel.Position>) : Rec
 
     // TODO: Convert to use databinding
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        var title: TextView
-        var company: TextView
-        var location: TextView
-
-        //        TextView duration;
-        //        TextView description;
-        init {
-            title = view.findViewById(R.id.position_title)
-            company = view.findViewById(R.id.position_company)
-            location = view.findViewById(R.id.position_location)
-            //            duration = view.findViewById(R.id.position_duration);
-//            description = view.findViewById(R.id.position_description);
-        }
+        var title: TextView = view.findViewById(R.id.position_title)
+        var company: TextView = view.findViewById(R.id.position_company)
+        var location: TextView = view.findViewById(R.id.position_location)
     }
 }

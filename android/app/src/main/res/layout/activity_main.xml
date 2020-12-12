@@ -12,19 +12,19 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <TextView
-            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:minHeight="?actionBarSize"
             android:padding="@dimen/appbar_padding"
-            android:text="Resume"
+            android:text="@string/resume"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <fragment android:name="com.atlasrider.billdwyer.features.resume.ResumeFragment"
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/resume"
+        android:name="com.atlasrider.billdwyer.features.resume.ResumeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />

@@ -15,8 +15,9 @@ import com.google.gson.Gson
 import com.google.gson.JsonParser
 import java.io.IOException
 
+@Suppress("unused")
 class ResumeFragment : Fragment() {
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         val resumeViewModel = ResumeViewModel(loadResume())
         val view = setupDatabinding(inflater, container, resumeViewModel)
         setupPositionRecyclerView(view, resumeViewModel)

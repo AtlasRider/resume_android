@@ -3,6 +3,7 @@ package com.atlasrider.billdwyer
 import android.app.Application
 import android.util.Log
 
+@Suppress("unused")
 class MainApplication : Application() {
     override fun onCreate() {
         super.onCreate()

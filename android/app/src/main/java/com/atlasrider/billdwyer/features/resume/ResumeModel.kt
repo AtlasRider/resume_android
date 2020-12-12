@@ -13,6 +13,7 @@ open class ResumeModel(
             val currentTitle: String,
             val location: String,
             val intro: String)
+
     open class Education(
             val college: String,
             val start: String,
@@ -20,14 +21,16 @@ open class ResumeModel(
             val location: String,
             val degree: String,
             val majors: Array<String>)
+
     class SkillCategory(
             val category: String,
             val icon: String,
-            val skills: Array<Skill>){
+            val skills: Array<Skill>) {
         class Skill(
                 val label: String,
                 val icon: String)
     }
+
     class Position(
             val id: Int,
             val title: String,
@@ -37,6 +40,7 @@ open class ResumeModel(
             val start: String,
             val end: String,
             val description: Array<String>)
+
     class Recommendation(
             val name: String,
             val title: String,
