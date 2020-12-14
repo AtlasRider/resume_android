@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer.util
+package com.illdwyer.b.resume.util
 
 import android.content.res.AssetManager
 import java.io.IOException

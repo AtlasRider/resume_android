@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer.features.resume
+package com.illdwyer.b.resume.features.resume
 
 import android.os.Bundle
 import android.util.Log
@@ -8,11 +8,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.atlasrider.billdwyer.R
-import com.atlasrider.billdwyer.databinding.FragmentResumeBinding
-import com.atlasrider.billdwyer.util.File.Companion.readAsset
 import com.google.gson.Gson
 import com.google.gson.JsonParser
+import com.illdwyer.b.resume.R
+import com.illdwyer.b.resume.databinding.FragmentResumeBinding
+import com.illdwyer.b.resume.util.File.Companion.readAsset
 import java.io.IOException
 
 @Suppress("unused")

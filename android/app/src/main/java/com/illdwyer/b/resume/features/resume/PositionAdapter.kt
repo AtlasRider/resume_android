@@ -1,11 +1,11 @@
-package com.atlasrider.billdwyer.features.resume
+package com.illdwyer.b.resume.features.resume
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.atlasrider.billdwyer.R
+import com.illdwyer.b.resume.R
 
 class PositionAdapter(private val experience: Array<ResumeModel.Position>) : RecyclerView.Adapter<PositionAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

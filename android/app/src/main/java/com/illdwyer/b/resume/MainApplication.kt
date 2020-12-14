@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer
+package com.illdwyer.b.resume
 
 import android.app.Application
 import android.util.Log

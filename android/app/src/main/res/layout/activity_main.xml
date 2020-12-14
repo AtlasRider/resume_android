@@ -24,7 +24,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/resume"
-        android:name="com.atlasrider.billdwyer.features.resume.ResumeFragment"
+        android:name="com.illdwyer.b.resume.features.resume.ResumeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
