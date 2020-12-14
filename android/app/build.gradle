@@ -1,11 +1,10 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "30.0.3"
     defaultConfig {
         applicationId "com.atlasrider.billdwyer"
         minSdkVersion 23
@@ -22,6 +21,11 @@ android {
     }
     buildFeatures {
         dataBinding = true
+    }
+
+    lintOptions {
+        disable "UnsafeExperimentalUsageError",
+                "UnsafeExperimentalUsageWarning"
     }
 }
 

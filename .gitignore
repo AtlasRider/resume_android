@@ -1,2 +1,4 @@
 .project
 android/.idea
+.DS_Store
+.gradle
