@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943057722168",
+    "project_id": "android-resume",
+    "storage_bucket": "android-resume.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943057722168:android:0a29ff733196683205ffcd",
+        "android_client_info": {
+          "package_name": "com.illdwyer.b.resume"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943057722168-481e6oe3a3prt20l83vcuh5ph08olbvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoRURZQQyGjSb-eHteQ-w7Ni3YixJwB8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943057722168-481e6oe3a3prt20l83vcuh5ph08olbvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
