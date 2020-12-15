@@ -21,7 +21,7 @@ class ResumeFragmentTest {
     var activityRule: ActivityScenarioRule<MainActivity> = ActivityScenarioRule(MainActivity::class.java)
 
     @Test
-    fun changeText_sameActivity() {
+    fun loadScreen() {
         onView(withId(R.id.name)).check(matches(withText("Bill Dwyer")))
     }
 }
