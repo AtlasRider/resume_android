@@ -28,6 +28,14 @@ android {
         disable "UnsafeExperimentalUsageError",
                 "UnsafeExperimentalUsageWarning"
     }
+
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res',
+                    'src/main/java/com/illdwyer/b/resume/features/resume/generalinfo/res']
+        }
+    }
 }
 
 dependencies {
