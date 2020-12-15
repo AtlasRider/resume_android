@@ -2,3 +2,4 @@
 android/.idea
 .DS_Store
 .gradle
+android/keystore
