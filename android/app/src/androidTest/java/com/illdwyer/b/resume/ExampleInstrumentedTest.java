@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer;
+package com.illdwyer.b.resume;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.atlasrider.billdwyer", appContext.getPackageName());
+        assertEquals("com.illdwyer.b.resume", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.atlasrider.billdwyer;
+package com.illdwyer.b.resume;
 
 import org.junit.Test;
 
