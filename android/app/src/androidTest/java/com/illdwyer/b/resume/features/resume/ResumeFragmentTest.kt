@@ -17,11 +17,12 @@ import org.junit.runner.RunWith
 @LargeTest
 class ResumeFragmentTest {
 
-    @get:Rule
-    var activityRule: ActivityScenarioRule<MainActivity> = ActivityScenarioRule(MainActivity::class.java)
+  @get:Rule
+  var activityRule: ActivityScenarioRule<MainActivity> =
+    ActivityScenarioRule(MainActivity::class.java)
 
-    @Test
-    fun loadScreen() {
-        onView(withId(R.id.name)).check(matches(withText("Bill Dwyer")))
-    }
+  @Test
+  fun loadScreen() {
+    onView(withId(R.id.name)).check(matches(withText("Bill Dwyer")))
+  }
 }

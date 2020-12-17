@@ -1,20 +1,9 @@
 package com.illdwyer.b.resume.features.resume
 
-class ResumeViewModel(model: ResumeModel)
-    : ResumeModel(model.general,
-        model.education,
-        model.experience,
-        model.skills,
-        model.recommendations) {
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.illdwyer.b.resume.data.ResumeModel
 
-    override val education: EducationViewModel =
-            EducationViewModel(
-                    super.education
-            )
-
-    class EducationViewModel(model: Education) : Education(model.college, model.start, model.end, model.location,
-            model.degree, model.majors) {
-        val duration: String = String.format("%s - %s", start, end)
-        fun getMajorsAsString() = super.majors.joinToString()
-    }
+class ResumeViewModel : ViewModel() {
+  val resume = MutableLiveData<ResumeModel>()
 }
